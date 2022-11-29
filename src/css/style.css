@@ -1,0 +1,103 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+   
+}
+.container.imagem-cont{
+     background-image: url(../imagens/bg-repeat.jpg); 
+     background-size: contain; 
+}
+
+.container .texto{
+    width: 50%;  
+}
+
+.container .texto h1{
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+.container .texto p{
+    font-size: 20px;
+    font-weight: 400;
+    width: 60%;
+    
+}
+
+.container .texto h1,
+ p{
+    color: #FFFFFF;
+}
+.container .formulario{
+    width: 340px;
+    height: 378px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+
+.container .formulario form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+    margin-top: 20px;
+}
+
+.container .formulario .inputs {
+    width: 298px;
+    height: 35px;
+}
+
+.container .formulario .mensagem{
+    width: 298px;
+    height: 100px;
+}
+
+ .inputs, .mensagem{
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: #000000;
+    font-size: 15px;
+    font-weight: 700;
+    color:#A8A8A8 ;
+    padding: 5px;
+}
+.container .formulario p{
+    color: #000000;
+    font-size: 15px;
+    font-weight: 400;
+   
+}
+.container .formulario p, 
+.alerta{
+    align-self: flex-start; 
+    margin: 0 20px;
+}
+
+.container .btn{
+    background-color: #3CCC87;
+    color: #FFFFFF;
+    padding: 10px 130px;
+    border-radius: 5px;
+}
+ /*Aqui começa js*/
+
+ .borda-verde{
+    border-color: green;
+   
+    }
+.borda-vermelha{
+    border-color: red;
+    
+}
+.alerta{
+     color: #Ffffff;
+     font-size: 8px;
+     font-weight: 400;
+}
+.troca-cor{
+    color: #F52E2E;
+}
+

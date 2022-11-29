@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+<body>
+        <main class="container imagem-cont">
+            <div class="texto">
+                <h1>FICOU COM DÚVIDA?
+                <br>    
+                NOS MANDE UMA MENSAGEM!</h1>
+                <p>caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.</p>
+            </div>
+
+            <div class="formulario">
+                <form action="">
+                    <label for="name"></label>
+                    <input type="text" value placeholder="Nome completo*" name="name" id="name" class="inputs inputText">
+                    <span class="alerta">*campo obrigatório</span>
+                       
+                    <label for="email"></label>
+                    <input type="text" value placeholder="E-mail*" name="email" id="email" class="inputs  inputText">
+                    <span class="alerta">*campo obrigatório</span>
+                        
+                    <label for="telefone"></label>
+                    <input type="text" value placeholder="Telefone*" name="telefone" id="telefone" class="inputs  inputText">
+                    <span class="alerta">*campo obrigatório</span>
+                     
+                    <label for="mensagem"></label>   
+                    <textarea value placeholder="Mensagem*" name="mensagem" id="mensagem" cols="30" rows="10" class="mensagem inputText"></textarea>
+                    <span class="alerta">*campo obrigatório</span>
+
+                    <p>*Campos obrigatórios</p>
+
+                    <a href="#" class="btn" id="btnEnviar">Enviar</a>
+                </form>
+            </div>
+        </main>
+    
+    <script type="text/javascript" src="./js/index.js"></script>
+</body>
+</html>
